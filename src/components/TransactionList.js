@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const TransactionList = () => {
   return (
     <>
-    <h3>History</h3>
-      <ul id="list" class="list">
-        <li class="minus">
+      <h3>History</h3>
+      <ul className="list">
+        <li className="minus">
           Cash <span>-$400</span>
-          <button class="delete-btn">x</button>
+          <button className="delete-btn">x</button>
         </li>
       </ul>
-      </>
-  )
-}
+    </>
+  );
+};
 
-export default TransactionList
+export default TransactionList;
